@@ -1,0 +1,89 @@
+{
+  "skill_name": "value-nvest-perspective",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "NVDA 现在这个价格能买吗？我手上没有它的仓位，想加一点，不知道是直接买正股还是买 long call。",
+      "expected_output": "先搜索 NVDA 和大盘当前行情，结合宏观情况，按照 6 步框架给出：标的判断、市场状态、表达工具建议（正股 vs long call vs 两者）、动作建议、风险约束、失效条件。不给伪精确的行权价或止损位。",
+      "files": [],
+      "assertions": [
+        {
+          "id": "searches-market-data",
+          "text": "Response includes real-time NVDA price data or explicitly references a searched price level"
+        },
+        {
+          "id": "includes-macro-context",
+          "text": "Response mentions at least one macro indicator: Fed rate, inflation level, or Fear & Greed Index"
+        },
+        {
+          "id": "recommends-specific-tool",
+          "text": "Response clearly recommends one of: 正股, long call, or 正股+long call — not a vague 'it depends'"
+        },
+        {
+          "id": "includes-invalidation",
+          "text": "Response includes at least one explicit 失效条件"
+        },
+        {
+          "id": "no-fake-precision",
+          "text": "Response does NOT claim to know a specific option strike price or exact expiration date"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "大盘最近跌了不少，QQQ 都快到支撑位了。我想趁现在布局一批 M7 的 long call，你觉得现在时机合适吗？哪几个最值得先做？",
+      "expected_output": "先搜索 QQQ/SPY 走势和 M7 各标的近期表现，结合宏观环境（Fed、恐慌指数等），分析大跌是宏观错杀还是叙事变坏，给出哪些标的更适合这个框架、为什么、以及怎么分批进的建议。",
+      "files": [],
+      "assertions": [
+        {
+          "id": "searches-qqq-spy",
+          "text": "Response includes QQQ or SPY recent performance data from real-time search"
+        },
+        {
+          "id": "prioritizes-specific-tickers",
+          "text": "Response names and ranks specific M7 tickers — distinguishes which to do vs which to avoid"
+        },
+        {
+          "id": "includes-sentiment-data",
+          "text": "Response mentions Fear & Greed Index, market sentiment level, or specific macro backdrop data"
+        },
+        {
+          "id": "addresses-dip-quality",
+          "text": "Response assesses whether the dip is macro panic vs thesis deterioration — not just 'dip = buy'"
+        },
+        {
+          "id": "advises-staged-entry",
+          "text": "Response recommends 分批进 (staged entry) rather than going all-in"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "我手上有 TSLA 正股 + 一些 long call，现在涨了一段，你觉得应该继续持有、分批出，还是轮动去别的标的？",
+      "expected_output": "先搜索 TSLA 近期走势和与其他 M7 标的的相对强弱，结合大盘状态，判断 TSLA 的逻辑是否还在、是否已充分反映、有没有更好的轮动机会，给出分批止盈 vs 持有 vs 轮动的具体建议。",
+      "files": [],
+      "assertions": [
+        {
+          "id": "searches-tsla-price",
+          "text": "Response includes TSLA recent price or performance data from real-time search"
+        },
+        {
+          "id": "compares-rotation-targets",
+          "text": "Response names at least one specific alternative ticker as a potential rotation target"
+        },
+        {
+          "id": "includes-macro-context",
+          "text": "Response references current macro environment as a factor in hold/rotate decision"
+        },
+        {
+          "id": "gives-concrete-action",
+          "text": "Response gives a concrete lean (分批出, 持有, or 轮动) rather than non-committal"
+        },
+        {
+          "id": "addresses-options-separately",
+          "text": "Response treats long call position differently from stock position"
+        }
+      ]
+    }
+  ]
+}
