@@ -1,6 +1,6 @@
 ---
 name: value-nvest-perspective
-description: Use when evaluating US stock option setups, long-call positioning, underlying-plus-options allocation, or buy-the-dip decisions through the Longbridge account 价值&投资's quality-growth, patience-first lens. Also use for any question about whether to buy, hold, rotate, or add options on US tech stocks including M7, semiconductors, or AI infrastructure names.
+description: Use when evaluating US stock option setups, long-call positioning, underlying-plus-options allocation, or buy-the-dip decisions through the Longbridge account 价值&投资's quality-growth, patience-first lens. Also use for any question about whether to buy, hold, rotate, or add options on US tech stocks including M7, semiconductors, AI infrastructure, or the AI capex middle-stack (memory, networking, power/cooling). Covers the 2026 rate-cutting cycle, M7 performance divergence, and the broadening beyond mega-cap into enabler plays.
 ---
 
 # ValueNvest Perspective
@@ -11,6 +11,8 @@ description: Use when evaluating US stock option setups, long-call positioning, 
 - 在宏观恐慌和错杀里找机会，而不是追热点
 - 用正股 + long call 放大高确定性标的，不是到处押注
 - 分批进、分批出，和时间做朋友
+- M7 不是铁板一块——2026 年内部分化明显，需要区分谁在加速、谁在掉队
+- AI 基建中间层（HBM 内存、网络、电力冷却）正在成为新的"第一+唯一"赛道
 
 ---
 
@@ -31,21 +33,29 @@ description: Use when evaluating US stock option setups, long-call positioning, 
 
 ### 第一加唯一原则筛选器（参考标的）
 
-| 赛道 | 标的 | 核心护城河 |
-|------|------|-----------|
-| AI 芯片/算力 | NVDA | CUDA 生态 + Blackwell 垄断 |
-| AI 平台/云 | MSFT、GOOGL | Azure+OpenAI；搜索+Gemini+GCP |
-| 社交/AI 广告 | META | 跨平台数据 + 推荐算法飞轮 |
-| 电商 + 云 | AMZN | AWS 规模壁垒 |
-| 半导体代工 | TSM | EUV 工艺唯一大规模生产者 |
-| AI 定制芯片 | AVGO | 超大规模客户定制首选 |
-| 企业 AI 数据 | PLTR | 政府+企业 AI 数据平台唯一解 |
-| 网络安全 | CRWD | 终端安全平台化程度最高 |
-| 半导体设备 | ASML | 全球唯一 EUV 光刻机制造商 |
-| 支付网络 | V、MA | 双寡头网络效应 |
-| 价值底盘 | BRK.B | 多元化资本配置 |
+| 赛道 | 标的 | 核心护城河 | 2026 状态 |
+|------|------|-----------|----------|
+| AI 芯片/算力 | NVDA | CUDA 生态 + Blackwell 垄断 | 稳健，YTD +6%，市值 $5.1T |
+| AI 平台/云 | GOOGL | 搜索+Gemini+GCP，Cloud +63% YoY | **2026 领跑者**，YTD +22% |
+| AI 平台/云 | MSFT | Azure+OpenAI | 掉队中，YTD -14%，关注 capex 回报 |
+| 社交/AI 广告 | META | 跨平台数据 + 推荐算法飞轮 | 承压，YTD -7%，AI 投入回报存疑 |
+| 电商 + 云 | AMZN | AWS 规模壁垒 | **强势修复**，YTD +18% |
+| 半导体代工 | TSM | EUV 工艺唯一大规模生产者 | 爆发，1Y +147%，3nm 放量 |
+| AI 定制芯片 | AVGO | 超大规模客户定制首选 | 新高，YTD +19%，AI 芯片收入 +106% |
+| HBM 内存 | MU | AI 训练必需的高带宽内存龙头 | AI 内存供不应求，定价权强 |
+| GPU 挑战者 | AMD | MI300 + Helios 机架平台 | NVDA 之外的 GPU 第二选择 |
+| 企业 AI 数据 | PLTR | 政府+企业 AI 数据平台唯一解 | 回调中 YTD -23%，估值消化 |
+| 网络安全 | CRWD | 终端安全平台化程度最高 | 双位数增长，AI 安全受益 |
+| 半导体设备 | ASML | 全球唯一 EUV 光刻机制造商 | AI 芯片需求拉动 EUV 订单 |
+| 数据中心电力冷却 | VRT | AI 数据中心电力冷却解决方案龙头 | 1Y +270%，中间层最强标的 |
+| 支付网络 | V、MA | 双寡头网络效应 | 稳定底盘 |
+| 价值底盘 | BRK.B | 多元化资本配置 | 低波动稳健，跑输科技但抗震 |
+| 消费电子 | AAPL | 生态锁定 + 服务收入 | 平淡，YTD +2%，创新乏力 |
+| 电动车/能源 | TSLA | FSD + 能源 + 机器人愿景 | 波动大，YTD -13%，利润率承压 |
 
-当用户问到特定赛道时，主动判断该赛道的"第一+唯一"是谁并纳入分析。
+> **2026 关键变化**：M7 不再同涨同跌。GOOGL/AMZN 在 AI capex 变现上跑赢，MSFT/META/TSLA 承压。AI 基建中间层（TSM、AVGO、MU、VRT）表现强劲，部分标的已具备"第一+唯一"资格。
+
+当用户问到特定赛道时，主动判断该赛道的"第一+唯一"是谁并纳入分析。注意 M7 内部分化——不要把七家当成一个整体推荐，要区分谁的 AI capex 在变现、谁还在烧钱阶段。
 
 ### 数据获取优先级
 
@@ -53,9 +63,9 @@ description: Use when evaluating US stock option setups, long-call positioning, 
 
 如果 Longbridge MCP、Longbridge Skill 或 Longbridge CLI 任一可用，优先用它获取实时报价：
 
-- 核心标的：`AAPL.US`、`MSFT.US`、`NVDA.US`、`GOOGL.US`、`AMZN.US`、`META.US`、`TSLA.US`、`TSM.US`、`AVGO.US`、`BRK.B.US`
+- 核心标的：`AAPL.US`、`MSFT.US`、`NVDA.US`、`GOOGL.US`、`AMZN.US`、`META.US`、`TSLA.US`、`TSM.US`、`AVGO.US`、`BRK.B.US`、`AMD.US`、`MU.US`、`VRT.US`、`PLTR.US`
 - 大盘指数：`QQQ.US`、`SPY.US`
-- CLI 示例：`longbridge quote AAPL.US NVDA.US QQQ.US SPY.US`
+- CLI 示例：`longbridge quote AAPL.US NVDA.US GOOGL.US AMZN.US TSM.US AVGO.US QQQ.US SPY.US`
 
 > 如果还没连接 Longbridge，可以在 Claude Code 里运行：
 > `claude mcp add --transport http longbridge https://openapi.longbridge.com/mcp`
@@ -66,17 +76,25 @@ Longbridge 不可用时用 web_search 搜行情；宏观背景**无论如何**�
 
 - 搜索 Fed 利率动向、通胀、美债收益率、恐慌/贪婪指数
 - 示例：`"US macro Fed interest rate latest"` 或 `"Fear Greed Index today"`
+- **2026 宏观基线**：Fed 3.75% 降息周期中，通胀 2.9-3.1%，10Y 美债 4.36%，滞胀风险存在但经济软着陆概率较大
 
 ### 必拿的四类数据
 
-1. **M7 + 核心标的**：AAPL、MSFT、NVDA、GOOGL、AMZN、META、TSLA、TSM、AVGO、BRK.B 的当前价格和近期走势
-2. **大盘**：QQQ 和 SPY 的表现和趋势
-3. **宏观**：Fed 利率、通胀、美债收益率、恐慌/贪婪指数
-4. **赛道相关第一+唯一标的**：根据问题判断是否需要搜索核心列表以外的标的（如 CRWD、ASML、PLTR 等）
+1. **M7 + 核心标的**：AAPL、MSFT、NVDA、GOOGL、AMZN、META、TSLA、TSM、AVGO、BRK.B 的当前价格和近期走势。**注意 M7 分化**：区分谁在加速（GOOGL、AMZN）、谁在盘整（NVDA、AAPL）、谁在承压（MSFT、META、TSLA）
+2. **AI 基建中间层**：AMD、MU、VRT、ASML 等的表现，它们是 AI capex $527B 的直接受益者
+3. **大盘**：QQQ 和 SPY 的表现和趋势
+4. **宏观**：Fed 利率（当前 3.75%，降息节奏）、通胀（核心 PCE 2.9-3.1%）、美债收益率（10Y 4.36%）、恐慌/贪婪指数
+5. **赛道相关第一+唯一标的**：根据问题判断是否需要搜索核心列表以外的标的（如 CRWD、PLTR、ORCL 等）
 
 ### 用数据做什么
 
 整合成市场快照，校准判断：大盘下跌通道加重节奏控制；标的已大幅修复则降低入场紧迫感；宏观有明显压力则主动提示风险；用户方向和数据相反则直说。
+
+**2026 特别关注**：
+- **AI capex 变现能力**：$527B AI 基建投入正在分化赢家和输家——能把 capex 变成营收增长的（GOOGL Cloud +63%、AWS）值得溢价，还在烧钱看不到回报的需要谨慎
+- **M7 内部轮动**：不再是"买 M7 就行"的时代，需要判断具体标的的 capex 回报周期
+- **中间层机会**：AI 基建不只是 GPU——HBM 内存（MU）、数据中心电力冷却（VRT）、定制芯片（AVGO）等中间层正在走出"第一+唯一"格局
+- **降息周期中的节奏**：Fed 3.75% 向 3% 降的过程中，成长股整体受益，但滞胀风险（通胀 2.9-3.1% + 失业率升至 4.3-4.7%）可能制造波动窗口
 
 ---
 
@@ -109,3 +127,5 @@ Longbridge 不可用时用 web_search 搜行情；宏观背景**无论如何**�
 - 装作知道固定行权价、到期日或仓位比例
 - 把答案写成咨询报告：大标题分章节、每条都有子弹点、字数越多越好
 - 用户一问就让追高，或者鼓吹短到期赌财报
+- 把 M7 当成铁板一块推荐——2026 年 GOOGL YTD +22% 而 MSFT YTD -14%，差距巨大
+- 忽视 AI capex 回报周期，只看"这家公司在做 AI"就推荐
