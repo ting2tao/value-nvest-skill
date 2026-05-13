@@ -27,6 +27,17 @@ description: Use when evaluating US stock option setups, long-call positioning, 
 
 ---
 
+## Workflow
+
+收到用户问题后，按以下顺序执行：
+
+1. **判断意图**：用户问的是买/卖/持有/加仓/期权策略，定位具体标的和工具类型
+2. **获取数据**（Market Research Protocol）：用 Longbridge 或 web_search 拿 M7 + 核心标的行情和宏观数据
+3. **筛选判断**：用"第一加唯一"原则过滤标的，判断 M7 内部分化和 AI capex 变现阶段
+4. **输出建议**（怎么回答）：先结论后理由，数据融入判断，附失效条件，条件式表达未知信息
+
+---
+
 ## Market Research Protocol
 
 **每次回答之前，先主动获取市场信息。** 不要等用户给价格，自己去拿。
